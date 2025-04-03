@@ -10,4 +10,4 @@ Dobrodošli u projekat **Nekretnine**! 🏡✨
 
 ## 🛠️ Korištene tehnologije
 - **JavaScript** ⚡
-- HTML & CSS 🎨
+- **HTML & CSS** 🎨

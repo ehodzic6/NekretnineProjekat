@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Detalji</title>
+        <link rel="stylesheet" type="text/css" href="../css/detalji.css">
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+
+    <body>
+        
+        <div id="glavniMeni">
+        <ul id="glavniMeniLista">
+            <li><a href="profil.html"><strong>Profil</strong></a></li>
+            <li><a href="nekretnine.html"><strong>Nekretnine</strong></a></li>
+            <li><a href="prijava.html" id="prijavaLink"><strong>Prijava</strong></a></li>
+        </ul>
+    </div>
+   
+       
+    <div id="osnovno">
+        <img src="../images/stan1.jpg" alt="Slika nekretnine"><br>
+        <p class="osnovnoP" id="naziv"><br>
+        <p class="osnovnoP" id="kvadratura"></p><br>
+        <p class="osnovnoP" id="cijena"><br>
+    </div>
+
+    <h3>DETALJI</h3>
+    <div id="detalji">
+        <p id="tipGrijanja"></p>
+        <p id="godinaIzgradnje"></p>
+        <p id="lokacija"></p>
+        <p id="datumObjave"></p>
+        
+        <p id="opis"></p>
+
+
+    </div>
+    <h3>UPITI</h3>
+    
+    <div id="upiti">
+    <div class="upit">
+        <strong>username1</strong><br>
+        <p>Arma virumque cano, Troiae qui primus ab oris
+            Italiam, fato profugus, Laviniaque venit
+            litora, multum ille et terris iactatus et alto
+            vi superum saevae memorem Iunonis ob iram;
+            multa quoque et bello passus, dum conderet urbem,
+            inferretque deos Latio, genus unde Latinum,
+            Albanique patres, atque altae moenia Romae</p>
+    </div>
+    <div class="upit">
+        <strong>username2</strong><br>
+        <p>Arma virumque cano, Troiae qui primus ab oris
+            Italiam, fato profugus, Laviniaque venit
+            litora, multum ille et terris iactatus et alto
+            vi superum saevae memorem Iunonis ob iram;
+            multa quoque et bello passus, dum conderet urbem,
+            inferretque deos Latio, genus unde Latinum,
+            Albanique patres, atque altae moenia Romae</p>
+    </div>
+    </div>
+
+    <div class="form-container" id="dodajUpit">
+        <form id="upitForm">
+            <label for="upitInput">Unesite upit:</label>
+            <input type="text" id="upitInput" name="upitInput" required>
+            <button type="button" id="posaljiUpitBtn">Pošalji</button>
+        </form>
+    </div>
+    
+    <script src="../script/poziviAjax.js"></script>
+    <script src="../script/KlikoviAjax.js"></script>
+    <script src="../script/glavniMeni.js"></script>
+    <script src="../script/spojiUpite.js"></script>
+    <script src="../script/spojiDetalje.js"></script>
+    
+    
+    </body>
+</html>

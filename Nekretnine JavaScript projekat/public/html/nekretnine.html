@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css/nekretnine.css">
+        <title>Nekretnine</title>
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    </head>
+    <body>
+        <div id="glavniMeni">
+            <ul id="glavniMeniLista">
+                <li><a href="profil.html"><strong>Profil</strong></a></li>
+                <li><a href="nekretnine.html"><strong>Nekretnine</strong></a></li>
+                <li><a href="prijava.html" id="prijavaLink"><strong>Prijava</strong></a></li>
+            </ul>
+        </div>
+
+       
+        <div id="filterForma">
+            <ul>
+                <li><input type="number" placeholder="Unesi min. cijenu" id="minCijena"></li>
+                <li><input type="number" placeholder="Unesi max. cijenu" id="maxCijena"></li>
+                <li><input type="number" placeholder="Unesi min. kvadraturu" id="minKvadratura"></li>
+                <li><input type="number" placeholder="Unesi max. kvadraturu" id="maxKvadratura"></li>
+                <li><button id="filtrirajBtn" >Filtriraj</button></li>
+            </ul>
+        </div>
+    <div id="divNekretnine">
+    <div id="stan">
+        <div id="naslovStan" class="naslov"><h1>Stan</h1></div>
+        <div class="grid" id="stanGrid">
+
+        
+        </div>
+    </div>
+
+    <div id="kuca">
+        <div id="naslovKuca" class="naslov"><h1>Kuća</h1></div>
+        <div class="grid" id="kucaGrid">
+        
+    </div>
+    </div>
+    
+    <div id="pp">
+        <div id="naslovPoslovniProstor" class="naslov"><h1>Poslovni prostor</h1></div>
+        <div class="grid" id="ppGrid">
+        
+    </div>
+    </div>
+
+    </div>
+            <script src="../script/poziviAjax.js"></script>
+            <script src="../script/KlikoviAjax.js"></script>
+            <script src="../script/MarketingAjax.js"></script> 
+            <script src="../script/SpisakNekretnina.js"></script>
+            <script src="../script/nekretnine.js" ></script>
+            <script src="../script/glavniMeni.js"></script>
+            
+    </body>
+   
+</html>

@@ -1,0 +1,232 @@
+.grid{
+    display: -ms-inline-grid;
+    max-height: 360px;
+    column-width: 300px;
+    margin-left: 20px ;
+    height: auto;
+    grid-column-gap: 20px;
+
+}
+.stanItem{
+    background-color: white;
+    border-style:groove; 
+    height: 100%;
+    width: 300px;
+    text-align: center;
+    
+    
+    
+}
+
+.kucaItem{
+    background-color: powderblue;
+    margin: 0 40px 40px 0px;
+    border-style: groove;   
+    height: 100%;
+    width: 300px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.poslovniProstorItem{
+    background-color: green;
+    margin: 0 20px 20px 0;
+    border-style: groove;   
+    text-align: center;
+    height:100%;
+    width: 300px;
+}
+
+#stan{
+    margin-top: 50px;
+
+}
+
+img{
+    margin-top: 10px;
+    height: 150px;
+    width: 250px;
+}
+
+.nazivKvadraturaNekretnine{
+    text-align: left;
+    margin-left: 10px;
+}
+.cijenaNekretnine{
+    text-align: right;
+    margin-right: 10px;
+}
+
+.detaljiBtn{
+    background-color: rgb(170, 170, 170);
+    border: 2px solid rgba(63, 63, 63, 0.6);
+    width: 100px;
+    height: 30px;
+    color: black;
+    text-align: center;
+}
+.naslov{
+    margin-left: 20px;
+}
+
+html{
+    background-color: #fdf1d3;
+}
+
+li{
+    display: inline;
+    padding-right: 20px;
+    color:blue;
+    font-size: large;
+    text-decoration: none;
+
+
+}
+li :hover{
+    color:#ff9900;
+}
+
+
+#glavniMeni {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fdf1d3;
+    text-align: center;
+    
+    
+   
+  }
+
+  #stanGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  
+     
+  }
+
+  #kucaGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+     
+  }
+  #ppGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5%;
+   
+     
+  }
+
+  #odjavaBtn {
+    padding: 10px 20px;
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease; 
+}
+
+#odjavaBtn:hover {
+    background-color: #144d72; 
+}
+
+#odjavaBtn:active {
+    background-color: #1f6690; 
+}
+
+h1{
+    margin-top: 20px;
+    padding-top: 5%;
+}
+
+#filterForma{
+    margin-top: 5%;
+    text-align: center;
+}
+
+input{
+    width: 150px;
+}
+
+#filtrirajBtn{
+    padding: 5px 20px; 
+  width: 150px; 
+  height: 30px; 
+  background-color: #1b8327;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+#filtrirajBtn:hover {
+    background-color: #06540a;
+  }
+  
+  #filtrirajBtn:active {
+    background-color: #1fff0b;
+  }
+
+.brojKlikova{
+    text-align: left;
+    display: none;
+    padding-left: 2%;
+}
+.brojPretraga{
+    text-align: left;
+    display: none;
+    padding-left: 2%;
+}
+
+.godinaIzgradnje{
+    text-align: left;
+    display: none;
+    padding-left: 2%;
+}
+
+.lokacija{
+    text-align: left;
+    display: none;
+    padding-left: 2%;
+}
+.detaljiBtn{
+    cursor: pointer;
+    background-color: #ffe29a;
+    border: none;
+  }
+  .detaljiBtn:hover{
+    background-color: #ffd058;
+  }
+
+.naslov{
+    margin: 20px;
+    text-align: center;
+}
+
+.prikaziDetaljeBtn{
+    background-color: rgb(62, 211, 137);
+    border: none;
+    width: 150px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    display: none;
+    margin-left: 35%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.prikaziDetaljeBtn:hover{
+    background-color: rgb(31, 163, 97);;
+}
+

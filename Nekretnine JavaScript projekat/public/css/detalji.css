@@ -1,0 +1,116 @@
+li{
+    display: inline;
+    padding-right: 20px;
+    color:blue;
+    font-size: large;
+    text-decoration: none;
+
+}
+li :hover{
+    color:#ff9900;
+}
+html{
+    background-color: #fdf1d3;
+}
+#glavniMeni {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fdf1d3;
+    text-align: center;
+    
+  }
+  #osnovno{
+    margin-top: 50px;
+    text-align: center;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+
+  img{
+    width: 1000px;
+    height: 500px;
+  }
+  .osnovnoP{
+    text-align: left;
+    margin-left: 250px;
+
+  }
+  h3{
+    text-align: left;
+    margin-left: 250px;
+  }
+
+  #detalji{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    margin-left: 250px;
+  }
+  #opis{
+    grid-column: span 2;
+  }
+.upit{
+    margin-left: 250px;
+    width: 1000px;
+    background-color: white;
+    border-style: groove;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#odjavaBtn {
+  padding: 10px 20px;
+  background-color: #3498db; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
+}
+
+#odjavaBtn:hover {
+  background-color: #144d72; 
+}
+
+#odjavaBtn:active {
+  background-color: #1f6690; 
+}
+
+#dodajUpit {
+  margin-left: 23%;
+  width: 500px;
+  padding: 20px;
+  
+  
+}
+
+#upitForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#upitLabel {
+  margin-bottom: 10px;
+}
+
+#upitInput {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+#posaljiUpitBtn {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#posaljiUpitBtn:hover {
+  background-color: #45a049;
+}

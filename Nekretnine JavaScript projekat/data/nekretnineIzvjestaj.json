@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "broj_pretraga": 4,
+        "broj_klikova": 66
+    },
+    {
+        "id": 2,
+        "broj_pretraga": 4,
+        "broj_klikova": 20
+    },
+    {
+        "id": 3,
+        "broj_pretraga": 1,
+        "broj_klikova": 6
+    },
+    {
+        "id": 4,
+        "broj_pretraga": 3,
+        "broj_klikova": 2
+    },
+    {
+        "id": 5,
+        "broj_pretraga": 1,
+        "broj_klikova": 0
+    }
+]

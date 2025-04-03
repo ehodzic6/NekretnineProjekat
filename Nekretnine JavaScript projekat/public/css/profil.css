@@ -1,0 +1,112 @@
+li{
+    display: inline;
+    padding-right: 20px;
+    color:blue;
+    font-size: large;
+    text-decoration: none;
+
+}
+li :hover{
+    color:#ff9900;
+}
+html{
+    background-color: #fdf1d3;
+}
+#glavniMeni {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fdf1d3;
+    text-align: center;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  img{
+    margin-top: 20%;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+  }
+  #forma{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    margin-left: 0px;
+    margin-top: 0;
+    column-gap: 5%;
+    row-gap: 30%;
+    position: fixed;
+  }
+
+@media screen and (min-width: 500px) {
+  #forma {
+      display: grid;
+      grid-template-columns: 0.3fr 1fr;
+      margin-left: 25%;
+      margin-top: 10%;
+      margin-right: 100%;
+      column-gap: 5%;
+      row-gap: 30%;
+  }
+
+  img {
+    float:left;
+    margin-top: 10%;
+    width: 100px;
+    height: 100px;
+  }
+  #azurirajInfo{
+    position: fixed;
+    margin-top: 15%;
+    
+    
+  }
+
+
+}
+
+#odjavaBtn {
+  padding: 10px 20px;
+  background-color: #3498db; 
+  color: #fff; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease; 
+}
+
+#odjavaBtn:hover {
+  background-color: #144d72; 
+}
+
+#odjavaBtn:active {
+  background-color: #1f6690; 
+}
+
+#azurirajInfo {
+  padding: 5px 20px; 
+  width: 250px; 
+  height: 40px; 
+  background-color: #1b8327;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+#azurirajInfo:hover {
+  background-color: #06540a;
+}
+
+#azurirajInfo:active {
+  background-color: #1fff0b;
+}
+
